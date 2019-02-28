@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.moremoney.ink/2019/02/28/test/</loc>
+    
+    <lastmod>2019-02-28T12:23:32.883Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.moremoney.ink/404/index.html</loc>
     
     <lastmod>2019-02-28T11:47:44.914Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://blog.moremoney.ink/about/index.html</loc>
     
     <lastmod>2019-02-28T10:24:15.526Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.moremoney.ink/2019/02/28/test/</loc>
-    
-    <lastmod>2019-02-28T08:50:53.775Z</lastmod>
     
   </url>
   
