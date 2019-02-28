@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.moremoney.ink/"/>
-  <updated>2019-02-28T02:19:17.066Z</updated>
+  <updated>2019-02-28T08:50:53.775Z</updated>
   <id>https://blog.moremoney.ink/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://blog.moremoney.ink/2019/02/28/test/"/>
+    <id>https://blog.moremoney.ink/2019/02/28/test/</id>
+    <published>2019-02-28T08:50:25.000Z</published>
+    <updated>2019-02-28T08:50:53.775Z</updated>
+    
+    <content type="html"><![CDATA[<p>asdasd</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;asdasd&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
