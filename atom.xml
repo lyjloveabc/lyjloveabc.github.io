@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.moremoney.ink/"/>
-  <updated>2019-02-28T12:23:32.883Z</updated>
+  <updated>2019-03-01T12:00:07.097Z</updated>
   <id>https://blog.moremoney.ink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.moremoney.ink/2019/02/28/test/"/>
     <id>https://blog.moremoney.ink/2019/02/28/test/</id>
     <published>2019-02-28T08:50:25.000Z</published>
-    <updated>2019-02-28T12:23:32.883Z</updated>
+    <updated>2019-03-01T12:00:07.097Z</updated>
     
     <content type="html"><![CDATA[<p>ZY-ZM</p>]]></content>
     
@@ -35,6 +35,10 @@
     
     </summary>
     
+      <category term="hexo" scheme="https://blog.moremoney.ink/categories/hexo/"/>
+    
+    
+      <category term="呵呵" scheme="https://blog.moremoney.ink/tags/%E5%91%B5%E5%91%B5/"/>
     
   </entry>
   

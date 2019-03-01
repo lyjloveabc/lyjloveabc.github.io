@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.moremoney.ink/categories/index.html</loc>
+    
+    <lastmod>2019-03-01T12:06:07.383Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.moremoney.ink/tags/index.html</loc>
+    
+    <lastmod>2019-03-01T12:05:55.280Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.moremoney.ink/2019/02/28/test/</loc>
     
-    <lastmod>2019-02-28T12:23:32.883Z</lastmod>
+    <lastmod>2019-03-01T12:00:07.097Z</lastmod>
     
   </url>
   
@@ -19,20 +33,6 @@
     <loc>https://blog.moremoney.ink/schedule/index.html</loc>
     
     <lastmod>2019-02-28T11:42:11.477Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.moremoney.ink/categories/index.html</loc>
-    
-    <lastmod>2019-02-28T11:40:26.083Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.moremoney.ink/tags/index.html</loc>
-    
-    <lastmod>2019-02-28T11:40:10.744Z</lastmod>
     
   </url>
   
