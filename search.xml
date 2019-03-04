@@ -4,11 +4,86 @@
   
     
     <entry>
+      <title>Mac强大的终端——iTerm2</title>
+      <link href="/2019/03/04/Mac%E5%BC%BA%E5%A4%A7%E7%9A%84%E7%BB%88%E7%AB%AF%E2%80%94%E2%80%94iTerm2/"/>
+      <url>/2019/03/04/Mac%E5%BC%BA%E5%A4%A7%E7%9A%84%E7%BB%88%E7%AB%AF%E2%80%94%E2%80%94iTerm2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="【简介】"><a href="#【简介】" class="headerlink" title="【简介】"></a>【简介】</h3><ol><li><p>免费</p></li><li><p>Mac自带的终端工具“终端”，使用起来不够便捷，也不够炫，之前工作的时候，在朋友那边发现了一款超级酷炫的终端工具“iTerm2”。用过它之后，你一定会喜欢上它。</p></li></ol><a id="more"></a><ol start="3"><li>这是它的官网，官网也很酷啊：<a href="https://www.iterm2.com/" target="_blank" rel="noopener">https://www.iterm2.com/</a></li></ol><h3 id="【shell】"><a href="#【shell】" class="headerlink" title="【shell】"></a>【shell】</h3><ol><li><p>查看本机上装了哪些shell</p><p>cat /etc/shells</p><p>ls /bin/*sh</p></li><li><p>查看当前使用的是哪个shell</p><p>echo $0</p></li><li><p>查看当前bash的版本号</p><p>bash -version</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac究极进化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git常用命令</title>
+      <link href="/2019/03/04/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2019/03/04/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="【git-branch】"><a href="#【git-branch】" class="headerlink" title="【git branch】"></a>【git branch】</h3><p>一般用于分支的操作，比如查看分支、创建分支等</p><a id="more"></a><ol><li><p>git branch 不带参数</p><p>列出本地已经存在的分支，并且在当前分支的前面用“*”标记</p></li><li><p>git branch -r</p><p>查看远程版本分支列表，显示为红色</p></li><li><p>git branch -a</p><p>查看所有分支列表，包括本地和远程，其中远程分支显示为红色</p></li><li><p>git branch dev-190304-bigPlan</p><p>创建名为“dev-190304-bigPlan”的本地分支，当前任然在原来的分支上（我用IDEA创建新分支的时候，创建完当前环境自动切换到了新创建的分支上了，这里跟命令行创建有点区别）</p></li><li><p>git branch -d dev-190304-bigPlan</p><p>删除本地分支“dev-190304-bigPlan”，如果你正在待删除的分支上，则会报错“error: Cannot delete branch ‘dev-190304-bigPlan’ checked out at ‘/Users/luoyanjie/IdeaProjects/sea’”</p></li><li><p>git branch -vv</p><p>可以查看本地分支对应的远程分支</p></li></ol><h3 id="【git-check】"><a href="#【git-check】" class="headerlink" title="【git check】"></a>【git check】</h3><ol><li><p>git checkout dev-190304-bigPlan</p><p>检出（切换）到“dev-190304-bigPlan”分支</p></li></ol><h3 id="【git-push】"><a href="#【git-push】" class="headerlink" title="【git push】"></a>【git push】</h3><ol><li><p>git push origin dev-190304-bigPlan</p><p>把本地分支“dev-190304-bigPlan”推送到远程仓库</p></li><li><p>git push origin —delete dev-190304-bigPlan</p><p>删除名为“dev-190304-bigPlan”的远程</p></li></ol><h3 id="【学习Git的网站】"><a href="#【学习Git的网站】" class="headerlink" title="【学习Git的网站】"></a>【学习Git的网站】</h3><ol><li><p>廖雪峰的官方网站 Git教程</p><p><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000</a></p></li><li><p>易百教程 Git教程</p><p><a href="https://www.yiibai.com/git" target="_blank" rel="noopener">https://www.yiibai.com/git</a></p></li><li><p>RUNOOB Git 教程</p><p><a href="http://www.runoob.com/git/git-tutorial.html" target="_blank" rel="noopener">http://www.runoob.com/git/git-tutorial.html</a></p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 命令行 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《Redis实战》读书笔记（一）</title>
+      <link href="/2019/03/04/%E3%80%8ARedis%E5%AE%9E%E6%88%98%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+      <url>/2019/03/04/%E3%80%8ARedis%E5%AE%9E%E6%88%98%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h3 id="【Redis简介】"><a href="#【Redis简介】" class="headerlink" title="【Redis简介】"></a>【Redis简介】</h3><p>Redis是一个速度非常快的非关系数据库，它可以存储键与5种不同数据类型的值之间的映射，可以讲存储在内存的键值对数据持久化到硬盘，可以使用复制特性来扩展读性能，还可以使用客户端分片来扩展写性能。</p><a id="more"></a><h3 id="【附加特性】"><a href="#【附加特性】" class="headerlink" title="【附加特性】"></a>【附加特性】</h3><p>当服务器关闭时，服务器存储的数据将何去何从？可以使用Redis提供的两种不同形式的持久化方式，它们都可以用小而紧凑的的格式将存储在内存的数据写入硬盘。</p><ol><li><p>RDB 在指定的时间间隔能对你的数据进行快照存储。</p><p>将Reids在内存中的数据库记录定时dump到磁盘上的RDB持久化</p></li><li><p>append-only </p></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> NoSQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小躁动和小忙碌</title>
       <link href="/2019/03/03/%E5%B0%8F%E8%BA%81%E5%8A%A8%E5%92%8C%E5%B0%8F%E5%BF%99%E7%A2%8C/"/>
       <url>/2019/03/03/%E5%B0%8F%E8%BA%81%E5%8A%A8%E5%92%8C%E5%B0%8F%E5%BF%99%E7%A2%8C/</url>
       
-        <content type="html"><![CDATA[<h2 id="小焦虑"><a href="#小焦虑" class="headerlink" title="小焦虑"></a>小焦虑</h2><p>我从去年年底开始，焦虑感倍增，总想着自己的竞争力在下降。今年开年来，跟朋友聊了好多，也去外面走了走，感觉自己的技术能力还是不符合自己的期望的（我期望自己在技术这条道路上，走远走深）。与其焦虑，还不如好好努力，做好每一天，让每一天都有进步，用实际行动，来缓解焦虑。我觉得最好的实际行动，应该就是“不断努力地做正确的事情”。</p><h2 id="小忙碌"><a href="#小忙碌" class="headerlink" title="小忙碌"></a>小忙碌</h2><p>开年以来，手头项目不少，尤其还有个不太受我控制的，依赖第三方的，道闸的对接，迟迟没有对接好。也是耗时耗力。最近这两个礼拜，把筹划的搬家事宜，风风火火全部搞定了，可怜了我的腰，酸痛……</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="【小焦虑】"><a href="#【小焦虑】" class="headerlink" title="【小焦虑】"></a>【小焦虑】</h3><p>我从去年年底开始，焦虑感倍增，总想着自己的竞争力在下降。今年开年来，跟朋友聊了好多，也去外面走了走，感觉自己的技术能力还是不符合自己的期望的（我期望自己在技术这条道路上，走远走深）。与其焦虑，还不如好好努力，做好每一天，让每一天都有进步，用实际行动，来缓解焦虑。我觉得最好的实际行动，应该就是“不断努力地做正确的事情”。</p><a id="more"></a><h3 id="【小忙碌】"><a href="#【小忙碌】" class="headerlink" title="【小忙碌】"></a>【小忙碌】</h3><p>开年以来，手头项目不少，尤其还有个不太受我控制的，依赖第三方的，道闸的对接，迟迟没有对接好。也是耗时耗力。最近这两个礼拜，把筹划的搬家事宜，风风火火全部搞定了，可怜了我的腰，酸痛……</p>]]></content>
       
       
       <categories>
@@ -247,7 +322,7 @@
             
             <tag> 我 </tag>
             
-            <tag> 博客第一篇 </tag>
+            <tag> 第一篇 </tag>
             
         </tags>
       
