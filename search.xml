@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>charAt引发的血案</title>
+      <link href="/2019/03/26/charAt%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88/"/>
+      <url>/2019/03/26/charAt%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<p>基础不牢地动山摇，事情发生在昨天，今天整理出来。</p><p>线上客服爆出“C端APP上的某个促销活动的活动详情无法打开”，通过客户端同学小T查看，该BUG的现象是：同一个活动详情，Android没有报错且可以展示详情页面，而IOS直接报错无法展示任何信息。</p><a id="more"></a><p>出现这种只有其中一类客户端有异常的情况，我一般判断是这类客户端自身的问题，而不是接口的问题，所以开始我没有详细跟进。</p><p>一段时间后，小T挠头抓耳的发给我一堆报错信息：</p><p>“Unable to convert hex escape sequence (no high character) to UTF8-encoded character.” UserInfo={NSDebugDescription=Unable to convert hex escape sequence (no high character) to UTF8-encoded character.</p><p>然后跟我说，这不是他们客户端的问题，是接口返回的某个字符串有问题，他们没法解析。</p><p>接口没有特殊处理啊，怎么会发送了没法解析的字符串给客户端呢？况且Android还是没有报错的。</p><p><strong>辩论是谁的错没有意义，解决问题才是王道。</strong></p><p>仔细去看小T发给我的报错，应该是字符编码的问题。我用浏览器访问接口，观察返回的结果，一小段乱码吸引了我的注意力。看业务，知道这段乱码表示的是已下单的用户的昵称。结合小T发给我的异常信息，我感觉问题就是出在乱码这里。</p><p>我找到数据库里面这个用户的昵称，发现他的昵称最后带了一个表情“😊”，有点与众不同。</p><p>再看接口的具体代码，发现代码有队用户的昵称做处理，主要是隐藏用户的昵称信息，做的处理代码如下：</p><p><img src="/Users/luoyanjie/charAt错误代码.jpg" alt="charAt错误代码"></p><p>很明显，代码对昵称做了切割处理，取了第一个字符和最后一个字符，中间变成**，我意识到，应该是这个切割把表情“😊”切出问题了，这个表情很可能并不是一个单纯的Java的char。遂，我写了一段代码，去验证我的想法：</p><p>Android端能看到这段乱码，说明Android</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>幂次法则</title>
       <link href="/2019/03/13/%E5%B9%82%E6%AC%A1%E6%B3%95%E5%88%99/"/>
       <url>/2019/03/13/%E5%B9%82%E6%AC%A1%E6%B3%95%E5%88%99/</url>
